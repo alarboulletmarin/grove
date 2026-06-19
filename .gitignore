@@ -1,0 +1,20 @@
+# Système
+.DS_Store
+
+# Dépendances et build
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+
+# Cache Quartz
+.quartz-cache
+.quartz/
+quartz/cli/tui/dist/
+
+# Cache outillage (Claude Code, etc.)
+.claude/
+
+# Obsidian / contenu privé
+.obsidian
+private/

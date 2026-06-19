@@ -18,3 +18,10 @@ quartz/cli/tui/dist/
 # Obsidian / contenu privé
 .obsidian
 private/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

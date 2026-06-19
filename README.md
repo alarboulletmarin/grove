@@ -70,10 +70,12 @@ La version de Node est lue depuis le fichier `.node-version` (v22), aucune varia
 d'environnement supplémentaire n'est nécessaire. À chaque `git push` sur `main`,
 Cloudflare reconstruit et publie le site automatiquement.
 
+Le site est en ligne sur **<https://grove.andrea-larboullet-marin.workers.dev>**.
+
 > [!NOTE]
-> Pense à remplacer `baseUrl: grove.pages.dev` dans `quartz.config.yaml` par le
-> domaine réel attribué par Cloudflare (ou ton domaine personnalisé). Cette valeur
-> sert au flux RSS, au sitemap et aux images Open Graph.
+> Le `baseUrl` est configuré dans `quartz.config.yaml` (utilisé par le flux RSS,
+> le sitemap et les images Open Graph). En cas de changement de domaine, pense à
+> le mettre à jour.
 
 ## Configuration
 

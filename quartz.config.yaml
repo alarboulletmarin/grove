@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: fr-FR
-  baseUrl: grove.pages.dev
+  baseUrl: grove.andrea-larboullet-marin.workers.dev
   ignorePatterns:
     - private
     - templates
